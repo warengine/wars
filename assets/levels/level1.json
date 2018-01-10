@@ -1,0 +1,14 @@
+{
+    "assets": {
+        "Tileset": { "type": "image", "source": "assets/images/super_mario.png" },
+        "imgplayer": { "type": "spritesheet", "source": "assets/images/player.png", "frame_width": 12, "frame_height": 12, "frames": 5, "margin": 0, "spacing": 0 },
+        "Mapa": { "type": "tilemap", "source": "assets/tilemaps/Mapa.json" }
+    },
+    "groups": [
+       
+    ],
+    "map": {
+        "key": "Mapa",
+        "tilesets": ["Tileset", "Tileset"]
+    }
+}
